@@ -1,0 +1,14 @@
+@import '../../assets/styles/variables.scss';
+
+.offer-text {
+  font-family: $chakra-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark-color;
+  max-width: 731px;
+  margin: 0 auto;
+}

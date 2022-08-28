@@ -1,0 +1,149 @@
+@import '../../assets/styles/variables.scss';
+
+.news {
+  &__hero {
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (min-width: 768px) {
+      padding-bottom: 500px;
+    }
+  }
+
+  &__hero-info {
+    padding-top: 150px;
+
+    @media only screen and (min-width: 768px) {
+      padding-top: 250px;
+    }
+  }
+
+  &__content {
+    position: relative;
+    top: -150px;
+    margin-bottom: -150px;
+
+    @media only screen and (min-width: 768px) {
+      top: -250px;
+      margin-bottom: -250px;
+    }
+  }
+
+  &__title {
+    font-size: 50px;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 70px;
+    }
+  }
+
+  &__block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  &__categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 18px;
+
+    @media only screen and (min-width: 768px) {
+      gap: 30px;
+    }
+  }
+
+  &__categories-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: $dark-color;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 22px;
+    }
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 811px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: auto;
+
+    @media only screen and (min-width: 768px) {
+      width: min-content;
+    }
+  }
+
+  &__categories-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: $dark-color;
+    margin-bottom: 25px;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 30px;
+    }
+  }
+
+  &__offer-text {
+    font-size: 50px;
+    padding: 0 20px;
+    margin-top: 60px;
+    @media only screen and (min-width: 768px) {
+      font-size: 70px;
+      margin-top: 120px;
+    }
+  }
+
+  &__fill-form-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: $dark-color;
+    margin-top: 10px;
+
+    @media only screen and (min-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 60px 0;
+
+    @media only screen and (min-width: 768px) {
+      margin: 40px 0 120px 0;
+    }
+  }
+}

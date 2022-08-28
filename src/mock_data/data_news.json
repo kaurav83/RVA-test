@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fa2332",
+    "picture": "https://i.postimg.cc/Y9YWYnw4/news-pic.png",
+    "createdAt": "22.01.2022",
+    "status": "Developed a closed",
+    "description": "Developed a closed source crypto/fiat desktop and mobile wallet with a very simple user interface and an exchange built-in...",
+    "link1": "Lorem Ipsum",
+    "link2": "Lorem Ipsum"
+  },
+  {
+    "id": "b2c349",
+    "picture": "https://i.postimg.cc/Y9YWYnw4/news-pic.png",
+    "createdAt": "22.01.2022",
+    "status": "Developed a closed",
+    "description": "Developed a closed source crypto/fiat desktop and mobile wallet with a very simple user interface and an exchange built-in...",
+    "link1": "Lorem Ipsum",
+    "link2": "Lorem Ipsum"
+  }
+]

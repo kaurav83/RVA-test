@@ -1,0 +1,20 @@
+@import '../../assets/styles/variables.scss';
+
+.button {
+  &.MuiButton-root {
+    background-color: $blue-color;
+    font-family: $inter-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 19px 43px;
+    border-radius: 0;
+    text-transform: initial;
+
+    &:hover {
+      background-color: $dark-color;
+    }
+  }
+}

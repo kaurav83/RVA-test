@@ -1,0 +1,109 @@
+@import '../../assets/styles/variables.scss';
+
+.footer {
+  background: $dark-color;
+  grid-area: footer;
+
+  &__container {
+    max-width: 1271px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 31px 20px;
+
+    @media only screen and (min-width: 768px) {
+      padding: 51px 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: initial;
+    }
+  }
+
+  &__column-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 22px;
+    }
+  }
+
+  &__columns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    @media only screen and (min-width: 768px) {
+      gap: 70px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      gap: 120px;
+    }
+  }
+
+  &__column {
+    &--address {
+      width: 132px;
+    }
+
+    &--contact {
+      width: 202px;
+    }
+
+    &--links {
+      width: 79px;
+    }
+  }
+
+  &__column-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media only screen and (min-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+
+  &__column-item,
+  &__column-link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e9093;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  &__column-link {
+    text-decoration: none;
+
+    &--is-active {
+      color: $blue-color;
+      text-decoration: underline;
+    }
+
+    &:hover {
+      color: $blue-color;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import '../../assets/styles/variables.scss';
+
+.profile {
+  height: 100%;
+  &__hero {
+    height: calc(100vh + 100px);
+    position: relative;
+
+    &:before {
+      content: '';
+      background: $dark-color;
+      opacity: 0.4;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 50;
+    }
+  }
+
+  &__table {
+    max-width: 740px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    z-index: 70;
+    position: absolute;
+    color: #fff;
+    padding: 100px 20px;
+  }
+
+  &__img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  &__th {
+    width: 50%;
+    font-family: $chakra-font;
+  }
+
+  &__th,
+  &__td {
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: left;
+  }
+
+  &__tr {
+    height: 177px;
+  }
+
+  &__title {
+    margin-left: 50%;
+    width: 100%;
+    font-size: 50px;
+  }
+}
